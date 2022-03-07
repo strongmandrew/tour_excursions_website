@@ -37,7 +37,7 @@ if __name__ == '__main__':
 
     @bottle.route('/')
     def main_page():
-        return bottle.template('main_page')
+        return bottle.template('page')
 
     # Starts a local test server.
     bottle.run(server='wsgiref', host=HOST, port=PORT)
