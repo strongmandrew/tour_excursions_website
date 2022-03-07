@@ -35,5 +35,9 @@ if __name__ == '__main__':
         the server should be configured to serve the static files."""
         return bottle.static_file(filepath, root=STATIC_ROOT)
 
+    @bottle.route('/')
+    def main_page():
+        return bottle.template('main_page')
+
     # Starts a local test server.
     bottle.run(server='wsgiref', host=HOST, port=PORT)
