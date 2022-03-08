@@ -41,23 +41,44 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="static\content\Blog-Template.css" />
+    <Content Include="static\content\Blog-Templatepicunda.css" />
     <Content Include="static\content\bootstrap.css" />
     <Content Include="static\content\bootstrap.min.css" />
     <Content Include="static\content\nicepage.css" />
+    <Content Include="static\content\nicepagepicunda.css" />
+    <Content Include="static\content\Post-Template.css" />
+    <Content Include="static\content\Post-Templatepicunda.css" />
     <Content Include="static\content\site.css" />
     <Content Include="static\content\Главная.css" />
+    <Content Include="static\content\Главнаяpicunda.css" />
     <Content Include="static\content\Контакты.css" />
+    <Content Include="static\content\Контактыpicunda.css" />
     <Content Include="static\content\О-нас.css" />
+    <Content Include="static\content\О-насpicunda.css" />
     <Content Include="static\content\Страница-1.css" />
+    <Content Include="static\content\Страница-1picunda.css" />
     <Content Include="static\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="static\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="static\images\2.jpeg" />
+    <Content Include="static\images\2дельфина.jpg" />
+    <Content Include="static\images\3.jpeg" />
+    <Content Include="static\images\4.jpeg" />
     <Content Include="static\images\gelendzhik.jpg" />
     <Content Include="static\images\logo_1.png" />
     <Content Include="static\images\logo_2.png" />
     <Content Include="static\images\pitsunda.jpg" />
     <Content Include="static\images\sochi.jpg" />
+    <Content Include="static\images\аллея.jpg" />
+    <Content Include="static\images\иконка_самолёт.jpg" />
+    <Content Include="static\images\мояк.jpg" />
+    <Content Include="static\images\памятник-1.jpg" />
+    <Content Include="static\images\пляж-далеко.jpg" />
+    <Content Include="static\images\пляж.jpg" />
+    <Content Include="static\images\фесбук_линкин_твитер_инста.PNG" />
+    <Content Include="static\images\церковь.jpg" />
     <Content Include="static\scripts\bootstrap.js" />
     <Content Include="static\scripts\bootstrap.min.js" />
     <Content Include="static\scripts\jquery-1.10.2.intellisense.js" />
@@ -70,8 +91,10 @@
     <Content Include="static\scripts\jquery.validate.min.js" />
     <Content Include="static\scripts\jquery.validate.unobtrusive.js" />
     <Content Include="static\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="static\scripts\jquerypicunda.js" />
     <Content Include="static\scripts\modernizr-2.6.2.js" />
     <Content Include="static\scripts\nicepage.js" />
+    <Content Include="static\scripts\nicepagepicunda.js" />
     <Content Include="static\scripts\respond.js" />
     <Content Include="static\scripts\respond.min.js" />
     <Content Include="static\scripts\_references.js" />
@@ -79,6 +102,7 @@
     <Content Include="views\contact.tpl" />
     <Content Include="views\index.tpl" />
     <Content Include="views\layout.tpl" />
+    <Content Include="views\picunda_page.tpl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 
