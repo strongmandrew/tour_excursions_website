@@ -6,11 +6,12 @@
     <meta name="keywords" content="Туризм в Геленджике">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Главная</title>
-    <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="Главная.css" media="screen">
-    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <title>Туризм в Геленджике</title>
+    <link rel="icon" sizes="76x76" href="./static/images/logo_1.png">
+    <link rel="stylesheet" href="./static/content/nicepage.css" media="screen">
+<link rel="stylesheet" href="./static/content/Главная-gelendzhik.css" media="screen">
+    <script class="u-script" type="text/javascript" src="./static/scripts/gelendzhikjquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="./static/scripts/gelendzhikpage.js" defer=""></script>
     <meta name="generator" content="Nicepage 4.6.2, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     
@@ -26,9 +27,9 @@
     <meta property="og:title" content="Главная">
     <meta property="og:type" content="website">
   </head>
-  <body data-home-page="Главная.html" data-home-page-title="Главная" class="u-body u-xl-mode"><header class="u-clearfix u-header u-header" id="sec-9a03"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="600" data-image-height="412">
-          <img src="images/photo5260724112102374409.jpg" class="u-logo-image u-logo-image-1">
+  <body data-home-page="Главная.html" data-home-page-title="Туризм в Геленджике" class="u-body u-xl-mode"><header class="u-clearfix u-header u-header" id="sec-9a03"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <a href="/" class="u-image u-logo u-image-1" data-image-width="600" data-image-height="412">
+          <img src="./static/images/logo_1.png" class="u-logo-image u-logo-image-1">
         </a>
         <form action="#" method="get" class="u-border-1 u-border-grey-30 u-search u-search-left u-white u-search-1">
           <button class="u-search-button" type="submit">
@@ -46,19 +47,19 @@
     <section class="u-align-left u-clearfix u-section-1" id="sec-f715">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h1 class="u-text u-text-1">Туризм в Геленджике</h1>
-        <p class="u-text u-text-default u-text-2">Места, которые стоит посетить</p>
-        <img class="u-image u-image-default u-image-1" src="images/scale_2400.jpg" alt="" data-image-width="1000" data-image-height="764">
-        <img class="u-image u-image-default u-image-2" src="images/scale_24001.jpg" alt="" data-image-width="1280" data-image-height="720">
-        <img class="u-image u-image-default u-image-3" src="images/scale_600.jpg" alt="" data-image-width="600" data-image-height="400">
-        <img class="u-image u-image-default u-image-4" src="images/scale_24002.jpg" alt="" data-image-width="1080" data-image-height="720">
+        <p class="u-text u-text-default u-text-2">Места, которые стоит посетить</p> 
+        <img class="u-image u-image-default u-image-1" src="./static/images/pamyatnik.jpg" alt="" data-image-width="1000" data-image-height="764">
+        <img class="u-image u-image-default u-image-2" src="./static/images/park_olimp.jpg" alt="" data-image-width="1280" data-image-height="720">
+        <img class="u-image u-image-default u-image-3" src="./static/images/safari_park.jpg" alt="" data-image-width="600" data-image-height="400">
+        <img class="u-image u-image-default u-image-4" src="./static/images/akvapark.jpg" alt="" data-image-width="1080" data-image-height="720">
         <p class="u-text u-text-default u-text-3">Парк Олимп</p>
         <p class="u-text u-text-default u-text-4">Аквапарк Золотая бухта</p>
-        <p class="u-text u-text-default u-text-5">Сафари-парк</p>
+        <p class="u-text u-text-default u-text-5">Сафари-парк</p>    
         <p class="u-text u-text-6">Памятник Белая невеста</p>
-        <img class="u-image u-image-default u-image-5" src="images/scale_24006.jpg" alt="" data-image-width="1600" data-image-height="1056">
-        <img class="u-image u-image-default u-image-6" src="images/scale_24005.jpg" alt="" data-image-width="1000" data-image-height="644">
-        <img class="u-image u-image-default u-image-7" src="images/scale_24004.jpg" alt="" data-image-width="1200" data-image-height="900">
-        <img class="u-image u-image-default u-image-8" src="images/scale_24003.jpg" alt="" data-image-width="1600" data-image-height="1067">
+        <img class="u-image u-image-default u-image-5" src="./static/images/andr_park.jpg" alt="" data-image-width="1600" data-image-height="1056">
+        <img class="u-image u-image-default u-image-6" src="./static/images/galereya.jpg" alt="" data-image-width="1000" data-image-height="644">
+        <img class="u-image u-image-default u-image-7" src="./static/images/ocean.jpg" alt="" data-image-width="1200" data-image-height="900">
+        <img class="u-image u-image-default u-image-8" src="./static/images/delf.jpg" alt="" data-image-width="1600" data-image-height="1067">
         <p class="u-text u-text-default u-text-7">Туннельный океанариум</p>
         <p class="u-text u-text-default u-text-8">Геленджикский дельфинарий</p>
         <p class="u-text u-text-default u-text-9">Галерея Белая лошадь</p>
@@ -110,7 +111,7 @@
               <div class="u-align-center-sm u-align-right-md u-container-style u-layout-cell u-size-20 u-size-20-md u-layout-cell-2">
                 <div class="u-container-layout u-container-layout-2">
                   <a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="600" data-image-height="412">
-                    <img src="images/photo5260724112102374409-10.jpg" class="u-logo-image u-logo-image-1">
+                    <img src="./static/images/logo_2.png" class="u-logo-image u-logo-image-1">
                   </a>
                 </div>
               </div>
@@ -144,14 +145,11 @@
       </div></footer>
     <section class="u-backlink u-clearfix u-grey-80">
       <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
-        <span>Website Templates</span>
       </a>
       <p class="u-text">
-        <span>created with</span>
       </p>
       <a class="u-link" href="" target="_blank">
-        <span>Website Builder Software</span>
-      </a>. 
+      </a>
     </section>
   </body>
 </html>

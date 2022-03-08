@@ -6,11 +6,12 @@
     <meta name="keywords" content="Пицунда, Досотпримечательности Пицунды">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Главная</title>
-    <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="Главная.css" media="screen">
-    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <title>Туризм в Пицунде</title>
+    <link rel="icon" href="./static/images/logo_1.png" sizes="76x76">
+    <link rel="stylesheet" href="./static/content/nicepage.css" media="screen">
+<link rel="stylesheet" href="./static/content/Главнаяpicunda.css" media="screen">
+    <script class="u-script" type="text/javascript" src="./static/scripts/jquerypicunda.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="./static/scripts/nicepagepicunda.js" defer=""></script>
     <meta name="generator" content="Nicepage 4.5.4, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     
@@ -26,9 +27,9 @@
     <meta property="og:title" content="Главная">
     <meta property="og:type" content="website">
   </head>
-  <body data-home-page="Главная.html" data-home-page-title="Главная" class="u-body u-xl-mode"><header class="u-clearfix u-header u-header" id="sec-9157"><div class="u-clearfix u-sheet u-sheet-1">
-        <a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="600" data-image-height="412">
-          <img src="images/photo_2022-03-02_16-46-20.jpg" class="u-logo-image u-logo-image-1">
+  <body data-home-page="Главная.html" data-home-page-title="Туризм в Пицунде" class="u-body u-xl-mode"><header class="u-clearfix u-header u-header" id="sec-9157"><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="/" class="u-image u-logo u-image-1" data-image-width="600" data-image-height="412">
+          <img src="./static/images/logo_1.png" class="u-logo-image u-logo-image-1">
         </a>
         <form action="#" method="get" class="u-border-1 u-border-grey-30 u-search u-search-left u-white u-search-1">
           <button class="u-search-button" type="submit">
@@ -39,7 +40,7 @@
           </button>
           <input class="u-search-input" type="search" name="search" value="" placeholder="Search">
         </form>
-        <p class="u-text u-text-default u-text-1">уточнит наличее экскурсий по телефону</p>
+        <p class="u-text u-text-default u-text-1">Уточнить наличее экскурсий по телефону</p>
         <h3 class="u-headline u-text u-text-default u-text-2">
           <a href="/">Отдых в Пицунде</a>
         </h3>
@@ -57,7 +58,7 @@
               </div>
               <div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-34 u-size-xs-60 u-layout-cell-2" src="">
                 <div class="u-container-layout u-valign-top u-container-layout-2" src="">
-                  <img class="u-expanded-width u-image u-image-1" src="images/652131f4-3b4c-8cd4-42fd-43f8d239d15d.jpg" data-image-width="480" data-image-height="259">
+                  <img class="u-expanded-width u-image u-image-1" src="./static/images/пляж.jpg" data-image-width="480" data-image-height="259">
                 </div>
               </div>
             </div>
@@ -72,20 +73,20 @@
           <div class="u-repeater u-repeater-1">
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
-                <img class="u-expanded-width u-image u-image-default u-image-1" src="images/b1503a5a-33ef-a888-5e20-fa706533b216.jpg" alt="" data-image-width="640" data-image-height="411">
+                <img class="u-expanded-width u-image u-image-default u-image-1" src="./static/images/аллея.jpg" alt="" data-image-width="640" data-image-height="411">
                 <p class="u-align-center u-text u-text-default u-text-2"> Аллея в тени многовековых сосен в городе</p>
               </div>
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
-                <img class="u-expanded-width u-image u-image-default u-image-2" src="images/b9fb8e1c-f073-91f6-c791-84a7c5b2ddb2.jpg" alt="" data-image-width="1024" data-image-height="683">
+                <img class="u-expanded-width u-image u-image-default u-image-2" src="./static/images/мояк.jpg" alt="" data-image-width="1024" data-image-height="683">
                 <p class="u-align-center u-text u-text-default u-text-3">Старый Маяк</p>
               </div>
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
-                <img class="u-expanded-width u-image u-image-default u-image-3" src="images/73c25919-4e2a-0398-907a-f57670706c70.jpg" alt="" data-image-width="1024" data-image-height="526">
-                <p class="u-align-center u-text u-text-default u-text-4"> Центральный пляжПицунды</p>
+                <img class="u-expanded-width u-image u-image-default u-image-3" src="./static/images/пляж-далеко.jpg" alt="" data-image-width="1024" data-image-height="526">
+                <p class="u-align-center u-text u-text-default u-text-4"> Центральный пляж Пицунды</p>
               </div>
             </div>
           </div>
@@ -95,19 +96,19 @@
           <div class="u-repeater u-repeater-2">
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-4">
-                <img class="u-expanded-width u-image u-image-default u-image-4" src="images/c2815551-3aab-312f-35a7-2da8bde25f09.jpg" alt="" data-image-width="1024" data-image-height="682">
+                <img class="u-expanded-width u-image u-image-default u-image-4" src="./static/images/церковь.jpg" alt="" data-image-width="1024" data-image-height="682">
                 <p class="u-align-center u-text u-text-default u-text-5">Потриарший собор Андрея Первозванного</p>
               </div>
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-5">
-                <img class="u-expanded-width u-image u-image-default u-image-5" src="images/b04134ad-0ff5-48a2-8f5e-82060b01f39d.jpg" alt="" data-image-width="1024" data-image-height="576">
-                <p class="u-align-center u-text u-text-default u-text-6">Скульптура "Нырялщики"</p>
+                <img class="u-expanded-width u-image u-image-default u-image-5" src="./static/images/2дельфина.jpg" alt="" data-image-width="1024" data-image-height="576">
+                <p class="u-align-center u-text u-text-default u-text-6">Скульптура "Ныряльщики"</p>
               </div>
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-6">
-                <img class="u-expanded-width u-image u-image-default u-image-6" src="images/-2.jpg" alt="" data-image-width="1024" data-image-height="752">
+                <img class="u-expanded-width u-image u-image-default u-image-6" src="./static/images/памятник-1.jpg" alt="" data-image-width="1024" data-image-height="752">
                 <p class="u-align-center u-text u-text-default u-text-7">Скульптура "Медея"</p>
               </div>
             </div>
@@ -118,8 +119,8 @@
     
     
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-9bf7"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1">Партёры:</p>
-        <img class="u-image u-image-1" src="images/photo_2022-03-02_16-46-20.jpg" data-image-width="600" data-image-height="412">
+        <p class="u-small-text u-text u-text-variant u-text-1">Партнёры:</p>
+        <img class="u-image u-image-1" src="./static/images/logo_2.png" data-image-width="600" data-image-height="412">
         <ul class="u-text u-text-2">
           <li>
             <span class="u-text-palette-1-base">Anextour</span>
@@ -131,21 +132,18 @@
             <span class="u-text-palette-1-base">pegas</span>
           </li>
         </ul>
-        <img class="u-image u-image-circle u-preserve-proportions u-image-2" src="images/e88478e6-71f5-16a0-577d-e58f2ec90d26.PNG" alt="" data-image-width="169" data-image-height="38">
-        <img class="u-image u-image-circle u-preserve-proportions u-image-3" src="images/e88478e6-71f5-16a0-577d-e58f2ec90d26.PNG" alt="" data-image-width="169" data-image-height="38">
-        <img class="u-image u-image-circle u-preserve-proportions u-image-4" src="images/e88478e6-71f5-16a0-577d-e58f2ec90d26.PNG" alt="" data-image-width="169" data-image-height="38">
-        <img class="u-image u-image-circle u-preserve-proportions u-image-5" src="images/e88478e6-71f5-16a0-577d-e58f2ec90d26.PNG" alt="" data-image-width="169" data-image-height="38">
+        <img class="u-image u-image-circle u-preserve-proportions u-image-2" src="" alt="" data-image-width="169" data-image-height="38">
+        <img class="u-image u-image-circle u-preserve-proportions u-image-3" src="" alt="" data-image-width="169" data-image-height="38">
+        <img class="u-image u-image-circle u-preserve-proportions u-image-4" src="" alt="" data-image-width="169" data-image-height="38">
+        <img class="u-image u-image-circle u-preserve-proportions u-image-5" src="" alt="" data-image-width="169" data-image-height="38">
       </div></footer>
     <section class="u-backlink u-clearfix u-grey-80">
       <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
-        <span>Website Templates</span>
       </a>
       <p class="u-text">
-        <span>created with</span>
       </p>
       <a class="u-link" href="" target="_blank">
-        <span>Website Builder Software</span>
-      </a>. 
+      </a>
     </section>
   </body>
 </html>
