@@ -33,6 +33,18 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="routes.py" />
+    <Compile Include="test_mail_F.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test_mail_T.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test_url_F.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test_url_T.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="static\" />

@@ -12,6 +12,7 @@
   <body>
     <h1 class="add-article">Form to add an article</h1>
     <form action="/submit_article" method="post">
+        <p>Your mail:</p><input name="mail_field" type="text"></input>
         <p>Brief name:</p><input name="brief_field" type="text"></input>
         <p>URL:</p><input name="url_field" type="text"></input>
         <br>
@@ -46,7 +47,7 @@
             <p class="medium-priority-article">{{temp_line[0]}}</p>
         {% else %}
             <p class="low-priority-article">{{temp_line[0]}}</p>
-        {% end if %}
+        {% endif %}
         <p>{{temp_line[1]}}</p>
         <p>{{temp_line[3]}}</p>
             
