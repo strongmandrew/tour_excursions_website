@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html style="font-size: 16px;">
   <head>
+  <!Подключение всем файлов разметки css и скриптов js, а также иконки  >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <meta name="keywords" content="Отдых в Сочи, Отдых в Пицунде, Отдых в Геленджике, Партнёры:">
@@ -9,7 +10,7 @@
     <title>Главная</title>
     <link rel="stylesheet" href="./static/content/nicepage.css" media="screen">
 <link rel="stylesheet" href="./static/content/Главная.css" media="screen">
-<link rel="icon" sizes="76x76" href="./static/images/logo_1.png">
+<link rel="icon" class"icon" href="./static/images/logo_1.png">
     <script class="u-script" type="text/javascript" src="./static/scripts/nicepage.jsjquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="./static/scripts/nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 4.6.1, nicepage.com">
@@ -22,16 +23,19 @@
 		"name": "",
 		"logo": "images/1643605452_1-papik-pro-p-logotip-turagentstva-1.png",
 		"sameAs": []
-}</script>
+}</script> 
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Главная">
     <meta property="og:type" content="website">
   </head>
+
+  <! Верхняя форма с поисковой строкой >
   <body data-home-page="Главная.html" data-home-page-title="Главная" class="u-body u-xl-mode"><header class="u-align-center-xs u-border-1 u-border-grey-25 u-clearfix u-header u-header" id="sec-87a5"><div class="u-clearfix u-sheet u-sheet-1">
         <a href="" class="u-image u-logo u-image-1" data-image-width="600" data-image-height="412">
           <img src="./static/images/logo_1.png" class="u-logo-image u-logo-image-1">
         </a>
-        <form action="/sochi" method="get" class="u-border-1 u-border-grey-15 u-search u-search-right u-search-1">
+
+        <form method="get" class="u-border-1 u-border-grey-15 u-search u-search-right u-search-1">
           <button class="u-search-button" type="submit">
             <span class="u-search-icon u-spacing-10 u-text-grey-40">
               <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 56.966 56.966" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-b04b"></use></svg>
@@ -56,6 +60,7 @@
             <div class="u-align-center u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-inner-container-layout u-sidenav-overflow">
                 <div class="u-menu-close"></div>
+
                 <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="tel:8-942-280-90-11">Уточнить наличие экскурсий по телефону</a>
 </li></ul>
               </div>
@@ -63,8 +68,14 @@
             <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
           </div>
         </nav>
-      </div></header>
+      </div>
+      
+      </header>
+
+      <! Секция для трёх блоков: отдых в Сочи, отдых в Пицунде, отдых в Геленджике>
     <section class="u-clearfix u-section-1" id="sec-cdc0">
+
+    <! Отдых в Сочи>
       <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-expanded-width u-layout-horizontal u-list u-list-1">
           <div class="u-repeater u-repeater-1">
@@ -77,6 +88,8 @@
                 </a>
               </div>
             </div>
+
+            <! Отдых в Пицунде>
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-2">
                 <img class="u-image u-image-circle u-image-2" src="./static/images/pitsunda.jpg" alt="" data-image-width="1280" data-image-height="853">
@@ -86,6 +99,8 @@
                 </a>
               </div>
             </div>
+
+            <! Отдых в Геленджике>
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-3">
                 <img class="u-image u-image-circle u-image-3" src="./static/images/gelendzhik.jpg" alt="" data-image-width="1280" data-image-height="552">
@@ -96,6 +111,16 @@
               </div>
             </div>
           </div>
+          <br>
+          <div class="outline">
+            <p> Актуальные новинки</p>
+            <a href="articles"
+            <button class="u-btn u-button-style u-none u-text-hover-palette-2-base u-text-palette-1-base u-btn-3">Смотреть</button>
+            </a>
+            <br>
+          </div>
+          
+          <! Настройка внешнего вида блоков, а именно скругления фотографий на блоках>
           <a class="u-absolute-vcenter u-gallery-nav u-gallery-nav-prev u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-gallery-nav-1" href="#" role="button">
             <span aria-hidden="true">
               <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
@@ -124,7 +149,7 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
       </div>
     </section>
     
-    
+    <! Футер с ссылками на партнеров, соц. сети и лого>
     <footer class="u-clearfix u-footer u-grey-80" id="sec-a2ff"><div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-clearfix u-expanded-width u-gutter-30 u-layout-wrap u-layout-wrap-1">
           <div class="u-gutter-0 u-layout">
@@ -132,6 +157,8 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
               <div class="u-align-center-sm u-align-center-xs u-align-left-md u-align-left-xl u-container-style u-layout-cell u-left-cell u-size-20 u-size-20-md u-layout-cell-1">
                 <div class="u-container-layout u-container-layout-1">
                   <h2 class="u-text u-text-default u-text-1">Партнёры:</h2>
+
+                  <! Список партнёров>
                   <ul class="u-text u-text-default u-text-2">
                     <li>
                       <a href="https://www.anextour.com/" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" target="_blank">Anextour</a>
@@ -164,7 +191,7 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
             c-0.2-1-0.3-2-0.3-3.1c0-7.4,6-13.4,13.4-13.4c3.9,0,7.3,1.6,9.8,4.2c3.1-0.6,5.9-1.7,8.5-3.3c-1,3.1-3.1,5.8-5.9,7.4
             c2.7-0.3,5.3-1,7.7-2.1C88.7,43,86.4,45.4,83.8,47.3z"></path></svg></span>
                     </a>
-                    <a class="u-social-url" title="instagram" target="_blank" href=""><span class="u-icon u-social-icon u-social-instagram u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7f3c"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-7f3c"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
+                    <a class="u-social-url" title="instagram" target="_blank" href="https://www.instagram.com/"><span class="u-icon u-social-icon u-social-instagram u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7f3c"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-7f3c"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
             z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path><path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path><path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
             C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5
             c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
@@ -181,7 +208,7 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
         </div>
       </div></footer>
     <section class="u-backlink u-clearfix u-grey-80">
-      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
+      <a class="u-link" href="/" target="_blank">
       </a>
       <p class="u-text">
       </p>

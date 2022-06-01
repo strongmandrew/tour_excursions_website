@@ -1,0 +1,16 @@
+.add-article {
+    color: red;
+}
+.border-article{
+    border: 2px solid;
+    border-color:aquamarine;
+}
+.high-priority-article{
+    color: darkred;
+}
+.medium-priority-article{
+    color: yellow;
+}
+.low-priority-article{
+    color: greenyellow;
+}
