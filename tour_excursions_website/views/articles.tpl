@@ -41,15 +41,14 @@
     %for line in article_lines:
         <div class="border-article">
     %temp_line = line.split(";")
-        {% if temp_line[2] == "High priority" %}
-            <p class="high-priority-article">{{temp_line[0]}}</p>
-        {% elif temp_line[2] == "Medium priority" %}
-            <p class="medium-priority-article">{{temp_line[0]}}</p>
-        {% else %}
-            <p class="low-priority-article">{{temp_line[0]}}</p>
-        {% endif %}
-        <p>{{temp_line[1]}}</p>
-        <p>{{temp_line[3]}}</p>
+        <% if temp_line[3] == "High priority": %>
+            <p class="high-priority-article">{{temp_line[1]}}</p>
+        <% elif temp_line[2] == "Medium priority": %>
+            <p class="medium-priority-article">{{temp_line[1]}}</p>
+        <% else: %>
+            <p class="low-priority-article">{{temp_line[1]}}</p>
+        <p>{{temp_line[4]}}</p>
+        <p>{{temp_line[2]}}</p>
             
         </div>
         <br>
