@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html style="font-size: 16px;" lang="en-GB">
   <head>
-  <!Подключение всем файлов разметки css и скриптов js, а также иконки  >
+  <!Подключение разметки css, а также иконки  >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Latest novelties</title>
+    <title>Latest articles</title>
     <link rel="stylesheet" href="./static/content/articles.css">
     <link rel="icon" href="./static/images/logo_1.png">
     </head>
   <body>
+  
     <h1 class="add-article">Form to add an article</h1>
+
+    <!Форма для для добавления новых статей >
     <form action="/submit_article" method="post">
         <p>Your mail:</p><input name="mail_field" type="text"></input>
-        <p>Brief name:</p><input name="brief_field" type="text"></input>
+        <p>Title:</p><input name="brief_field" type="text"></input>
         <p>URL:</p><input name="url_field" type="text"></input>
         <br>
         <br>
@@ -34,24 +37,38 @@
     
     <h3>Latest articles</h3>
 
-
+    <! Открытие файла на чтение >
     %file = open("./static/data/userArticles.txt", "r")
+
+    <! Считывание построчно>
     %article_lines = [line.strip() for line in file]
     %for line in article_lines:
+
+        <! Создаю блок для записи в него информации о статье>
         <div class="border-article">
     %temp_line = line.split(";")
+        % color = "red"
+
+        <! градация статей по приоритету осуществляется с поммощью установления свойства прозрачности>
         <% if temp_line[3] == "High priority": %>
-            <h2 style="color: darkred;" class="brief-name">{{temp_line[1]}}</h2>
-        <% elif temp_line[2] == "Medium priority": %>
-            <h2 style="color: yellow;" class="brief-name">{{temp_line[1]}}</h2>
-        <% else: %>
-            <h2 style="color: green;" class="brief-name">{{temp_line[1]}}</h2>
-        <p class="desc-article">{{temp_line[4][0:50]}}...</p>
-        <div>
-        <p>Read the eintire article via </p>
-        <a href="{{temp_line[2]}}">{{temp_line[2]}}</a>
-        </div>
+            % opacity = 1
             
+        <% elif temp_line[3] == "Medium priority": %>
+            % opacity = 0.6
+        <% else: %>
+            % opacity = 0.3
+        <% end %>
+        <h2 style="color: {{color}};opacity: {{opacity}};" class="brief-name">{{temp_line[1]}}</h2>
+
+        <! Вывожу только первые 250 символов описания, чтобы не перегружать блок текстом>
+        <p class="desc-article">{{temp_line[4][0:250]}}...</p>
+        <div class="url-info">
+
+        <! ссылка на полноценную статью> 
+        <p>Read the entire article at <a href="{{temp_line[2]}}">{{temp_line[2]}}</a> </p>
+        
+        </div>
+        <p class="date-article">{{temp_line[5]}}</p>
         </div>
         <br>
 
