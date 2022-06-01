@@ -34,6 +34,7 @@
         <a href="" class="u-image u-logo u-image-1" data-image-width="600" data-image-height="412">
           <img src="./static/images/logo_1.png" class="u-logo-image u-logo-image-1">
         </a>
+        
 
         <form method="get" class="u-border-1 u-border-grey-15 u-search u-search-right u-search-1">
           <button class="u-search-button" type="submit">
@@ -44,6 +45,10 @@
           </button>
           <input class="u-search-input" type="search" name="search" value="" placeholder="Search">
         </form>
+        <div>
+            <a style="margin: 130px;" href="articles">Полезные статьи</a>
+        </div>
+
         <nav class="u-align-left u-font-size-14 u-menu u-menu-dropdown u-nav-spacing-25 u-offcanvas u-menu-1">
           <div class="menu-collapse">
             <a class="u-button-style u-nav-link" href="#" style="padding: 4px 0px; font-size: calc(1em + 8px);">
@@ -69,6 +74,8 @@
           </div>
         </nav>
       </div>
+
+      
       
       </header>
 
@@ -112,13 +119,6 @@
             </div>
           </div>
           <br>
-          <div class="outline">
-            <p> Актуальные новинки</p>
-            <a href="articles"
-            <button class="u-btn u-button-style u-none u-text-hover-palette-2-base u-text-palette-1-base u-btn-3">Смотреть</button>
-            </a>
-            <br>
-          </div>
           
           <! Настройка внешнего вида блоков, а именно скругления фотографий на блоках>
           <a class="u-absolute-vcenter u-gallery-nav u-gallery-nav-prev u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-gallery-nav-1" href="#" role="button">

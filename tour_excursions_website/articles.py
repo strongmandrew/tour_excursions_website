@@ -10,7 +10,7 @@ def check_article():
     url = request.forms.get('url_field').strip()
     significance = request.forms.get('significance_combo')
     description = request.forms.get('desc_field').strip()
-    if len(brief_name) != 0 & len(description) != 0:
+    if (len(brief_name)) != 0 & (len(description) != 0):
         if isUrlValid(url):
             if isMailValid(mail):
                 file = open('./static/data/userArticles.txt', 'a')
@@ -27,7 +27,7 @@ def check_article():
    
 
 def isUrlValid(url):
-    url_pattern = r"^((http[s]?|ftp):\/)?\/?([^:\/\s]+)((\/\w+)*\/)([\w\-\.]+[^#?\s]+)(.*)?(#[\w\-]+)?$"
+    url_pattern = r"(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})"
     if re.match(url_pattern, url):
         return True
     else:

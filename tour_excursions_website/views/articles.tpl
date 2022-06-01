@@ -33,7 +33,6 @@
     </form>
     
     <h3>Latest articles</h3>
-    <br>
 
 
     %file = open("./static/data/userArticles.txt", "r")
@@ -42,13 +41,16 @@
         <div class="border-article">
     %temp_line = line.split(";")
         <% if temp_line[3] == "High priority": %>
-            <p class="high-priority-article">{{temp_line[1]}}</p>
+            <h2 style="color: darkred;" class="brief-name">{{temp_line[1]}}</h2>
         <% elif temp_line[2] == "Medium priority": %>
-            <p class="medium-priority-article">{{temp_line[1]}}</p>
+            <h2 style="color: yellow;" class="brief-name">{{temp_line[1]}}</h2>
         <% else: %>
-            <p class="low-priority-article">{{temp_line[1]}}</p>
-        <p>{{temp_line[4]}}</p>
-        <p>{{temp_line[2]}}</p>
+            <h2 style="color: green;" class="brief-name">{{temp_line[1]}}</h2>
+        <p class="desc-article">{{temp_line[4][0:50]}}...</p>
+        <div>
+        <p>Read the eintire article via </p>
+        <a href="{{temp_line[2]}}">{{temp_line[2]}}</a>
+        </div>
             
         </div>
         <br>
