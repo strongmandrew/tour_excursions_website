@@ -49,7 +49,7 @@
         {% end if %}
         <p>{{temp_line[1]}}</p>
         <p>{{temp_line[3]}}</p>
-    
+            
         </div>
         <br>
     %file.close()
