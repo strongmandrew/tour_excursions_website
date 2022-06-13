@@ -29,3 +29,17 @@ def review_form():
     return template('reviews')
     
 
+@route('/about')
+@view('about')
+def about():
+    """Renders the about page."""
+    return dict(
+        title='About',
+        message='Your application description page.',
+        year=datetime.now().year
+    )
+
+@route('/articles')
+@view('articles')
+def nov_page():
+    return template('articles')

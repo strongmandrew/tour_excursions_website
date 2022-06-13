@@ -1,5 +1,9 @@
+/*Стиль шапки с поисковой строкой*/
 .u-section-1 .u-sheet-1 {
   min-height: 415px;
+}
+
+.icon {
 }
 
 .u-section-1 .u-list-1 {
@@ -124,8 +128,10 @@
     grid-template-columns: repeat(3, calc(33.333333333333336% - 6.66667px));
   }
 
+  /*Книпки для перехода на следующие странрицы сайта*/
   .u-section-1 .u-btn-1 {
     margin-left: 0;
+
   }
 
   .u-section-1 .u-btn-2 {
@@ -155,4 +161,25 @@
   .u-section-1 .u-repeater-1 {
     grid-auto-columns: 100%;
   }
+}
+.outline {
+    border: 2px solid;
+    border-color: black;
+    padding: 0 10px;
+    width: 350px;
+    height: 100px;
+}
+
+btn-news{
+    height: 100px;
+    width: 100px;
+}
+h1#novelties{
+    align-content:center;
+    color: aqua;
+}
+
+brief-name-stl{
+    height: 30px;
+    width: 100px;
 }

@@ -5,6 +5,7 @@ This script runs the application using a development server.
 import bottle
 import os
 import sys
+import articles
 
 # routes contains the HTTP handlers for our server and must be imported.
 import routes
@@ -29,7 +30,7 @@ if __name__ == '__main__':
         When running under a production server such as IIS or Apache,
         the server should be configured to serve the static files."""
         return bottle.static_file(filepath, root=STATIC_ROOT)
-
+    
     @bottle.route('/')
     def main_page():
         return bottle.template('main_page')
