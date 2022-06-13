@@ -43,3 +43,10 @@ def about():
 @view('articles')
 def nov_page():
     return template('articles')
+
+@post('/useractive')
+@view('useractive')
+def useractive_form():
+
+    return template('useractive')
+

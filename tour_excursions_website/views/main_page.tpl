@@ -16,6 +16,7 @@
     <meta name="generator" content="Nicepage 4.6.1, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link rel="stylesheet" href="./static/content/reviews">
+    <link rel="stylesheet" href="./static/content/useractive">
        
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
@@ -45,6 +46,7 @@
         </form>
         <div>
             <a style="margin: 110px; font-size: 20pt" href="reviews">Reviews</a>
+            <a style="margin: 110px; font-size: 20pt" href="useractive">Active users</a>
         </div>
         <nav class="u-align-left u-font-size-14 u-menu u-menu-dropdown u-nav-spacing-25 u-offcanvas u-menu-1">
           <div class="menu-collapse">

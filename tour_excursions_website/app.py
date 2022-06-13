@@ -50,6 +50,10 @@ if __name__ == '__main__':
     @bottle.route('/reviews')
     def reviews():
         return bottle.template('reviews')
+    
+    @bottle.route('/useractive')
+    def useractive():
+        return bottle.template('useractive')
 
 
     # Starts a local test server.
