@@ -3,10 +3,10 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Пицунда, Досотпримечательности Пицунды">
+    <meta name="keywords" content="Pitsunda, Sights of Pitsunda">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Туризм в Пицунде</title>
+    <title>Pitsunda Tourism</title>
     <link rel="icon" href="./static/images/logo_1.png" sizes="76x76">
     <link rel="stylesheet" href="./static/content/nicepage.css" media="screen">
 <link rel="stylesheet" href="./static/content/Главнаяpicunda.css" media="screen">
@@ -27,7 +27,7 @@
     <meta property="og:title" content="Главная">
     <meta property="og:type" content="website">
   </head>
-  <body data-home-page="Главная.html" data-home-page-title="Туризм в Пицунде" class="u-body u-xl-mode"><header class="u-clearfix u-header u-header" id="sec-9157"><div class="u-clearfix u-sheet u-sheet-1">
+  <body data-home-page="Главная.html" data-home-page-title="Pitsunda Tourism" class="u-body u-xl-mode"><header class="u-clearfix u-header u-header" id="sec-9157"><div class="u-clearfix u-sheet u-sheet-1">
         <a href="/" class="u-image u-logo u-image-1" data-image-width="600" data-image-height="412">
           <img src="./static/images/logo_1.png" class="u-logo-image u-logo-image-1">
         </a>
@@ -40,9 +40,9 @@
           </button>
           <input class="u-search-input" type="search" name="search" value="" placeholder="Search">
         </form>
-        <p class="u-text u-text-default u-text-1">Уточнить наличее экскурсий по телефону</p>
+        <p class="u-text u-text-default u-text-1">Check the availability of excursions by phone</p>
         <h3 class="u-headline u-text u-text-default u-text-2">
-          <a href="/">Отдых в Пицунде</a>
+          <a href="/">Rest in Pitsunda</a>
         </h3>
       </div></header>
     <section class="u-clearfix u-grey-5 u-section-1" id="sec-a2be">
@@ -52,8 +52,8 @@
             <div class="u-layout-row" style="">
               <div class="u-container-style u-layout-cell u-left-cell u-size-26 u-size-xs-60 u-layout-cell-1" src="">
                 <div class="u-container-layout u-container-layout-1">
-                  <h2 class="u-align-center u-text u-text-1">Пицунда</h2>
-                  <p class="u-align-center u-text u-text-2"> Популярный абхазский курорт Пицунда известен широкими песчаными и галечными пляжами и чистейшей морской водой. Расположена Пицунда на большом, вдающемся в море мысе, на котором раскинулась большая роща реликтовых сосен, насыщающих воздух целебным хвойным ароматом.</p>
+                  <h2 class="u-align-center u-text u-text-1">Pitsunda</h2>
+                  <p class="u-align-center u-text u-text-2">The popular Abkhazian resort of Pitsunda is known for its wide sandy and pebbly beaches and the purest sea water. Pitsunda is located on a large cape protruding into the sea, on which there is a large grove of relict pines that saturate the air with a healing coniferous aroma.</p>
                 </div>
               </div>
               <div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-34 u-size-xs-60 u-layout-cell-2" src="">
@@ -68,14 +68,13 @@
     </section>
     <section class="u-align-center u-clearfix u-section-2" id="sec-b3ba">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-text u-text-default u-text-1">Досотпримечательности Пицунды</h1>
+        <h1 class="u-text u-text-default u-text-1">Sights of Pitsunda</h1>
         <div class="u-list u-list-1">
           <div class="u-repeater u-repeater-1">
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
                 <img class="u-expanded-width u-image u-image-default u-image-1" src="./static/images/аллея.jpg" alt="" data-image-width="640" data-image-height="411">
-                <p class="u-align-center u-text u-text-default u-text-2"> Аллея в тени многовековых сосен в городе</p>
-              </div>
+                <p class="u-align-center u-text u-text-default u-text-2"> АAlley in the shade of centuries-old pine trees in the city
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">

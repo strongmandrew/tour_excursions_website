@@ -18,6 +18,10 @@
     <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
     <Name>tour_excursions_website</Name>
     <RootNamespace>tour_excursions_website</RootNamespace>
+    <InterpreterId>MSBuild|env-Andrew666|$(MSBuildProjectFullPath)</InterpreterId>
+    <TestFramework>unittest</TestFramework>
+    <UnitTestPattern>test*.py</UnitTestPattern>
+    <UnitTestRootDirectory>.</UnitTestRootDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -30,6 +34,12 @@
   <ItemGroup>
     <Compile Include="app.py" />
     <Compile Include="routes.py" />
+    <Compile Include="test_One_Pattern_Mail.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test_Second_Pattern.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="static\" />
@@ -41,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="reviews.txt" />
     <Content Include="static\content\Blog-Template.css" />
     <Content Include="static\content\Blog-Templatepicunda.css" />
     <Content Include="static\content\bootstrap.css" />
@@ -98,11 +109,22 @@
     <Content Include="static\scripts\respond.js" />
     <Content Include="static\scripts\respond.min.js" />
     <Content Include="static\scripts\_references.js" />
-    <Content Include="views\about.tpl" />
-    <Content Include="views\contact.tpl" />
-    <Content Include="views\index.tpl" />
-    <Content Include="views\layout.tpl" />
+    <Content Include="views\gelendzhik_page.tpl" />
+    <Content Include="views\main_page.tpl" />
     <Content Include="views\picunda_page.tpl" />
+    <Content Include="views\reviews.tpl" />
+    <Content Include="views\sochi_page.tpl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env-Andrew666\">
+      <Id>env-Andrew666</Id>
+      <Version>3.9</Version>
+      <Description>env-Andrew666 (Python 3.9 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 

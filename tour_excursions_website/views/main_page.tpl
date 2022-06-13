@@ -3,10 +3,10 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Отдых в Сочи, Отдых в Пицунде, Отдых в Геленджике, Партнёры:">
+    <meta name="keywords" content="Rest in Sochi, Rest in Pitsunda, Rest in Gelendzhik, Partners:">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Главная</title>
+    <title>Main</title>
     <link rel="stylesheet" href="./static/content/nicepage.css" media="screen">
 <link rel="stylesheet" href="./static/content/Главная.css" media="screen">
 <link rel="icon" sizes="76x76" href="./static/images/logo_1.png">
@@ -14,8 +14,8 @@
     <script class="u-script" type="text/javascript" src="./static/scripts/nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 4.6.1, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-    
-    
+    <link rel="stylesheet" href="./static/content/reviews">
+       
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
@@ -24,14 +24,16 @@
 		"sameAs": []
 }</script>
     <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="Главная">
+    <meta property="og:title" content="Main">
     <meta property="og:type" content="website">
   </head>
-  <body data-home-page="Главная.html" data-home-page-title="Главная" class="u-body u-xl-mode"><header class="u-align-center-xs u-border-1 u-border-grey-25 u-clearfix u-header u-header" id="sec-87a5"><div class="u-clearfix u-sheet u-sheet-1">
-        <a href="" class="u-image u-logo u-image-1" data-image-width="600" data-image-height="412">
+  <body data-home-page="Главная.html" data-home-page-title="Main" class="u-body u-xl-mode"><header class="u-align-center-xs u-border-1 u-border-grey-25 u-clearfix u-header u-header" id="sec-87a5"><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="" class="u-image u-logo u-image-1" data-image-width="800" data-image-height="600">
           <img src="./static/images/logo_1.png" class="u-logo-image u-logo-image-1">
         </a>
-        <form action="/sochi" method="get" class="u-border-1 u-border-grey-15 u-search u-search-right u-search-1">
+        
+
+        <form method="get" class="u-border-1 u-border-grey-15 u-search u-search-right u-search-1">
           <button class="u-search-button" type="submit">
             <span class="u-search-icon u-spacing-10 u-text-grey-40">
               <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 56.966 56.966" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-b04b"></use></svg>
@@ -40,6 +42,9 @@
           </button>
           <input class="u-search-input" type="search" name="search" value="" placeholder="Search">
         </form>
+        <div>
+            <a style="margin: 110px; font-size: 20pt" href="reviews">Reviews</a>
+        </div>
         <nav class="u-align-left u-font-size-14 u-menu u-menu-dropdown u-nav-spacing-25 u-offcanvas u-menu-1">
           <div class="menu-collapse">
             <a class="u-button-style u-nav-link" href="#" style="padding: 4px 0px; font-size: calc(1em + 8px);">
@@ -56,6 +61,7 @@
             <div class="u-align-center u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-inner-container-layout u-sidenav-overflow">
                 <div class="u-menu-close"></div>
+
                 <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="tel:8-942-280-90-11">Уточнить наличие экскурсий по телефону</a>
 </li></ul>
               </div>
@@ -71,27 +77,27 @@
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-1">
                 <img class="u-image u-image-circle u-image-1" src="./static/images/sochi.jpg" alt="" data-image-width="1280" data-image-height="853">
-                <h2 class="u-text u-text-default u-text-1">Отдых в Сочи</h2>
-                <p class="u-text u-text-default u-text-2">Горячие путёвки в крупнейший курорт России. Незабываемые виды Черноморья, приятный бриз оставят в сердце воспоминания на всю жизнь.</p>
-                <a href="sochi" class="u-btn u-button-style u-none u-text-hover-palette-2-base u-text-palette-1-base u-btn-1">Читать далее&nbsp;<span class="u-icon u-text-palette-1-base"><svg class="u-svg-content" viewBox="0 -32 426.66667 426" style="width: 1em; height: 1em;"><path d="m213.332031 181.667969c0 4.265625-1.277343 8.53125-3.625 11.730469l-106.667969 160c-3.839843 5.761718-10.238281 9.601562-17.707031 9.601562h-64c-11.730469 0-21.332031-9.601562-21.332031-21.332031 0-4.269531 1.28125-8.535157 3.625-11.734375l98.773438-148.265625-98.773438-148.269531c-2.34375-3.199219-3.625-7.464844-3.625-11.730469 0-11.734375 9.601562-21.335938 21.332031-21.335938h64c7.46875 0 13.867188 3.839844 17.707031 9.601563l106.667969 160c2.347657 3.199218 3.625 7.464844 3.625 11.734375zm0 0"></path><path d="m426.667969 181.667969c0 4.265625-1.28125 8.53125-3.628907 11.730469l-106.664062 160c-3.839844 5.761718-10.242188 9.601562-17.707031 9.601562h-64c-11.734375 0-21.335938-9.601562-21.335938-21.332031 0-4.269531 1.28125-8.535157 3.628907-11.734375l98.773437-148.265625-98.773437-148.269531c-2.347657-3.199219-3.628907-7.464844-3.628907-11.730469 0-11.734375 9.601563-21.335938 21.335938-21.335938h64c7.464843 0 13.867187 3.839844 17.707031 9.601563l106.664062 160c2.347657 3.199218 3.628907 7.464844 3.628907 11.734375zm0 0"></path></svg><img></span>
+                <h2 class="u-text u-text-default u-text-1">Rest in Sochi</h2>
+                <p class="u-text u-text-default u-text-2">Hot trips to the largest resort in Russia. Unforgettable views of the Black Sea, a pleasant breeze will leave memories for life in the heart.</p>
+                <a href="sochi" class="u-btn u-button-style u-none u-text-hover-palette-2-base u-text-palette-1-base u-btn-1">More&nbsp;<span class="u-icon u-text-palette-1-base"><svg class="u-svg-content" viewBox="0 -32 426.66667 426" style="width: 1em; height: 1em;"><path d="m213.332031 181.667969c0 4.265625-1.277343 8.53125-3.625 11.730469l-106.667969 160c-3.839843 5.761718-10.238281 9.601562-17.707031 9.601562h-64c-11.730469 0-21.332031-9.601562-21.332031-21.332031 0-4.269531 1.28125-8.535157 3.625-11.734375l98.773438-148.265625-98.773438-148.269531c-2.34375-3.199219-3.625-7.464844-3.625-11.730469 0-11.734375 9.601562-21.335938 21.332031-21.335938h64c7.46875 0 13.867188 3.839844 17.707031 9.601563l106.667969 160c2.347657 3.199218 3.625 7.464844 3.625 11.734375zm0 0"></path><path d="m426.667969 181.667969c0 4.265625-1.28125 8.53125-3.628907 11.730469l-106.664062 160c-3.839844 5.761718-10.242188 9.601562-17.707031 9.601562h-64c-11.734375 0-21.335938-9.601562-21.335938-21.332031 0-4.269531 1.28125-8.535157 3.628907-11.734375l98.773437-148.265625-98.773437-148.269531c-2.347657-3.199219-3.628907-7.464844-3.628907-11.730469 0-11.734375 9.601563-21.335938 21.335938-21.335938h64c7.464843 0 13.867187 3.839844 17.707031 9.601563l106.664062 160c2.347657 3.199218 3.628907 7.464844 3.628907 11.734375zm0 0"></path></svg><img></span>
                 </a>
               </div>
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-2">
                 <img class="u-image u-image-circle u-image-2" src="./static/images/pitsunda.jpg" alt="" data-image-width="1280" data-image-height="853">
-                <h2 class="u-text u-text-default u-text-3">Отдых в Пицунде</h2>
-                <p class="u-text u-text-default u-text-4">Горная страна Абхазия ждёт новых туристов! Райский неизведанный уголок земли на Кавказе потрясёт вас своими живописными пейзжами.</p>
-                <a href="picunda" class="u-btn u-button-style u-none u-text-hover-palette-2-base u-text-palette-1-base u-btn-2">Читать далее&nbsp;<span class="u-icon u-text-palette-1-base"><svg class="u-svg-content" viewBox="0 -32 426.66667 426" style="width: 1em; height: 1em;"><path d="m213.332031 181.667969c0 4.265625-1.277343 8.53125-3.625 11.730469l-106.667969 160c-3.839843 5.761718-10.238281 9.601562-17.707031 9.601562h-64c-11.730469 0-21.332031-9.601562-21.332031-21.332031 0-4.269531 1.28125-8.535157 3.625-11.734375l98.773438-148.265625-98.773438-148.269531c-2.34375-3.199219-3.625-7.464844-3.625-11.730469 0-11.734375 9.601562-21.335938 21.332031-21.335938h64c7.46875 0 13.867188 3.839844 17.707031 9.601563l106.667969 160c2.347657 3.199218 3.625 7.464844 3.625 11.734375zm0 0"></path><path d="m426.667969 181.667969c0 4.265625-1.28125 8.53125-3.628907 11.730469l-106.664062 160c-3.839844 5.761718-10.242188 9.601562-17.707031 9.601562h-64c-11.734375 0-21.335938-9.601562-21.335938-21.332031 0-4.269531 1.28125-8.535157 3.628907-11.734375l98.773437-148.265625-98.773437-148.269531c-2.347657-3.199219-3.628907-7.464844-3.628907-11.730469 0-11.734375 9.601563-21.335938 21.335938-21.335938h64c7.464843 0 13.867187 3.839844 17.707031 9.601563l106.664062 160c2.347657 3.199218 3.628907 7.464844 3.628907 11.734375zm0 0"></path></svg><img></span>
+                <h2 class="u-text u-text-default u-text-3">Rest in Pitsunda</h2>
+                <p class="u-text u-text-default u-text-4">The mountainous country of Abkhazia is waiting for new tourists! The heavenly unexplored corner of the earth in the Caucasus will shock you with its picturesque landscapes.</p>
+                <a href="picunda" class="u-btn u-button-style u-none u-text-hover-palette-2-base u-text-palette-1-base u-btn-2">More&nbsp;<span class="u-icon u-text-palette-1-base"><svg class="u-svg-content" viewBox="0 -32 426.66667 426" style="width: 1em; height: 1em;"><path d="m213.332031 181.667969c0 4.265625-1.277343 8.53125-3.625 11.730469l-106.667969 160c-3.839843 5.761718-10.238281 9.601562-17.707031 9.601562h-64c-11.730469 0-21.332031-9.601562-21.332031-21.332031 0-4.269531 1.28125-8.535157 3.625-11.734375l98.773438-148.265625-98.773438-148.269531c-2.34375-3.199219-3.625-7.464844-3.625-11.730469 0-11.734375 9.601562-21.335938 21.332031-21.335938h64c7.46875 0 13.867188 3.839844 17.707031 9.601563l106.667969 160c2.347657 3.199218 3.625 7.464844 3.625 11.734375zm0 0"></path><path d="m426.667969 181.667969c0 4.265625-1.28125 8.53125-3.628907 11.730469l-106.664062 160c-3.839844 5.761718-10.242188 9.601562-17.707031 9.601562h-64c-11.734375 0-21.335938-9.601562-21.335938-21.332031 0-4.269531 1.28125-8.535157 3.628907-11.734375l98.773437-148.265625-98.773437-148.269531c-2.347657-3.199219-3.628907-7.464844-3.628907-11.730469 0-11.734375 9.601563-21.335938 21.335938-21.335938h64c7.464843 0 13.867187 3.839844 17.707031 9.601563l106.664062 160c2.347657 3.199218 3.628907 7.464844 3.628907 11.734375zm0 0"></path></svg><img></span>
                 </a>
               </div>
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-3">
                 <img class="u-image u-image-circle u-image-3" src="./static/images/gelendzhik.jpg" alt="" data-image-width="1280" data-image-height="552">
-                <h2 class="u-text u-text-default u-text-5">Отдых в Геленджике</h2>
-                <p class="u-text u-text-default u-text-6">Город, носящий почётное звание "Город-курорт федерального значения" не оставит равнодушным ценителей активного отдыха. Такое звание даётся не каждому городу...</p>
-                <a href="gelendzhik" class="u-btn u-button-style u-none u-text-hover-palette-2-base u-text-palette-1-base u-btn-3">Читать далее&nbsp;<span class="u-icon u-text-palette-1-base"><svg class="u-svg-content" viewBox="0 -32 426.66667 426" style="width: 1em; height: 1em;"><path d="m213.332031 181.667969c0 4.265625-1.277343 8.53125-3.625 11.730469l-106.667969 160c-3.839843 5.761718-10.238281 9.601562-17.707031 9.601562h-64c-11.730469 0-21.332031-9.601562-21.332031-21.332031 0-4.269531 1.28125-8.535157 3.625-11.734375l98.773438-148.265625-98.773438-148.269531c-2.34375-3.199219-3.625-7.464844-3.625-11.730469 0-11.734375 9.601562-21.335938 21.332031-21.335938h64c7.46875 0 13.867188 3.839844 17.707031 9.601563l106.667969 160c2.347657 3.199218 3.625 7.464844 3.625 11.734375zm0 0"></path><path d="m426.667969 181.667969c0 4.265625-1.28125 8.53125-3.628907 11.730469l-106.664062 160c-3.839844 5.761718-10.242188 9.601562-17.707031 9.601562h-64c-11.734375 0-21.335938-9.601562-21.335938-21.332031 0-4.269531 1.28125-8.535157 3.628907-11.734375l98.773437-148.265625-98.773437-148.269531c-2.347657-3.199219-3.628907-7.464844-3.628907-11.730469 0-11.734375 9.601563-21.335938 21.335938-21.335938h64c7.464843 0 13.867187 3.839844 17.707031 9.601563l106.664062 160c2.347657 3.199218 3.628907 7.464844 3.628907 11.734375zm0 0"></path></svg><img></span>
+                <h2 class="u-text u-text-default u-text-5">Rest in Gelendzhik</h2>
+                <p class="u-text u-text-default u-text-6">The city bearing the honorary title of "Resort City of Federal Importance" will impress lovers of outdoor activities. This title is not given to every city...</p>
+                <a href="gelendzhik" class="u-btn u-button-style u-none u-text-hover-palette-2-base u-text-palette-1-base u-btn-3">More&nbsp;<span class="u-icon u-text-palette-1-base"><svg class="u-svg-content" viewBox="0 -32 426.66667 426" style="width: 1em; height: 1em;"><path d="m213.332031 181.667969c0 4.265625-1.277343 8.53125-3.625 11.730469l-106.667969 160c-3.839843 5.761718-10.238281 9.601562-17.707031 9.601562h-64c-11.730469 0-21.332031-9.601562-21.332031-21.332031 0-4.269531 1.28125-8.535157 3.625-11.734375l98.773438-148.265625-98.773438-148.269531c-2.34375-3.199219-3.625-7.464844-3.625-11.730469 0-11.734375 9.601562-21.335938 21.332031-21.335938h64c7.46875 0 13.867188 3.839844 17.707031 9.601563l106.667969 160c2.347657 3.199218 3.625 7.464844 3.625 11.734375zm0 0"></path><path d="m426.667969 181.667969c0 4.265625-1.28125 8.53125-3.628907 11.730469l-106.664062 160c-3.839844 5.761718-10.242188 9.601562-17.707031 9.601562h-64c-11.734375 0-21.335938-9.601562-21.335938-21.332031 0-4.269531 1.28125-8.535157 3.628907-11.734375l98.773437-148.265625-98.773437-148.269531c-2.347657-3.199219-3.628907-7.464844-3.628907-11.730469 0-11.734375 9.601563-21.335938 21.335938-21.335938h64c7.464843 0 13.867187 3.839844 17.707031 9.601563l106.664062 160c2.347657 3.199218 3.628907 7.464844 3.628907 11.734375zm0 0"></path></svg><img></span>
                 </a>
               </div>
             </div>
@@ -124,14 +130,13 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
       </div>
     </section>
     
-    
     <footer class="u-clearfix u-footer u-grey-80" id="sec-a2ff"><div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-clearfix u-expanded-width u-gutter-30 u-layout-wrap u-layout-wrap-1">
           <div class="u-gutter-0 u-layout">
             <div class="u-layout-row">
               <div class="u-align-center-sm u-align-center-xs u-align-left-md u-align-left-xl u-container-style u-layout-cell u-left-cell u-size-20 u-size-20-md u-layout-cell-1">
                 <div class="u-container-layout u-container-layout-1">
-                  <h2 class="u-text u-text-default u-text-1">Партнёры:</h2>
+                  <h2 class="u-text u-text-default u-text-1">Partners:</h2>
                   <ul class="u-text u-text-default u-text-2">
                     <li>
                       <a href="https://www.anextour.com/" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" target="_blank">Anextour</a>
@@ -180,13 +185,5 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
           </div>
         </div>
       </div></footer>
-    <section class="u-backlink u-clearfix u-grey-80">
-      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
-      </a>
-      <p class="u-text">
-      </p>
-      <a class="u-link" href="" target="_blank">
-      </a> 
-    </section>
   </body>
 </html>

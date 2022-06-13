@@ -46,5 +46,10 @@ if __name__ == '__main__':
     def gelendzhik_page():
         return bottle.template('gelendzhik_page')
 
+    @bottle.route('/reviews')
+    def reviews():
+        return bottle.template('reviews')
+
+
     # Starts a local test server.
     bottle.run(server='wsgiref', host=HOST, port=PORT)
